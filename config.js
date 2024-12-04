@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3AD
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
 global.devs = "https://t.me/deecee_x";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "";
+global.owner = process.env.OWNER_NUMBER || "2349042746739";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -42,14 +42,14 @@ global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUNreUIvY3I1bzJSYk5FYytyUVVGVTk1cjMrbU1LZE9rUFI1SFF0d01VVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidFF1aHJ3ZkV1RWlpN0VXcExsVHZlZWNuNlhSZDVGN2FObUpKOENaZFREcz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXRUo5dFpKK3RZcGF0ZWJrSVJDSkl0dkdKVStzRWRGV2x2STZHWXZ2MTNzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBWTZya1cvVFdUYjE0R1IzUjNGMTY0S0YrNERUc09GYlkrNXNibVV1ejJ3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklIT0dZVEdOWFJHU3dVOTZRVGxMQVYrMS96dERxbythWCtzQ1lmK3JVVWM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlOTmJOZlVsdlZ2ZEFNaFJ2KzNFUi94aklka05laWFGV1VMYUplVU1pUjA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0xsMUZVenU0VEZuTWtXcGJCbHNIbHBBSDBrQVpJalIrQU1OMXRxN0hsND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRGlzdnNvUzZZS1lsbWVxdlkwRmRma3VYZklqbkQ4Q3V6R3A3M2E0NmR6WT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndMQ1ZaY28xQ3NGTnlzSmZJQlg3M0w5TXlHdzJGZXVUQUcvT0VacTZCRFM0MUF0Skt3czIraHk2S21qSytQR1dlRlpyNFIyTERwemVhTjR2ZFptU0NBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTU3LCJhZHZTZWNyZXRLZXkiOiJ6dHdiZEZYV0hGMzFRRFFZZGhiSlYrZEdKelFlZGNkSDdOSGhKN0JMYUxZPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJqMVhmRHhUb1NxNmJmOVctOGk4RUJ3IiwicGhvbmVJZCI6IjM5Y2QxZTIxLWFlM2YtNDJjOS1hZjVhLWExOGRlYTc1MTRhNCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFc01nb2g0YmJyZFh5a2FHN2p3R2llVkZCRWs9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSXFwQ216T3pvZldueGJxa1RpWGs3Z3VSVk9NPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlJXRDVCRldDIiwibWUiOnsiaWQiOiIyMzQ5MDQyNzQ2NzM5OjE4QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNLTDBpUVVRLy82K3VnWVlBU0FBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJobXpwekdHZStkdXJ6MTJBZ1pBaUNXeXhtS1FGak1aT0IrWERqUU1HaVdnPSIsImFjY291bnRTaWduYXR1cmUiOiIzbEhuT3JGL0NvTG5FQVJYMjZia0lmMHpQRkxzYmVLM082L2xvcmxjbkpPbWJaV0wzS0hkVStGVElaSmxOS05kbnVySGVQNnNta0luRU16dldaeFhEZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiVDFUMThEakZlM1FJbS9lbEQwbGFDdlZsSHc5U3B4anVpWmhGcUMyeXZ1UFYxQTBZNGJDQWQxMk5jT3pxdisweGdScjl4blI1SFdIUlN0YWVXYjBuQWc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ5MDQyNzQ2NzM5OjE4QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQllaczZjeGhudm5icTg5ZGdJR1FJZ2xzc1ppa0JZekdUZ2ZsdzQwREJvbG8ifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MzMyNzk2MzF9q"
 module.exports = {
   menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
+  author: process.env.PACK_AUTHER || "BELVIN-🏴󠁧󠁢󠁥󠁮󠁧󠁿🇺🇲🇳🇬",
   packname: process.env.PACK_NAME || "A N I T A",
   botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
   ownername: process.env.OWNER_NAME || "David Cyril",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "A N I T A").toUpperCase(),
 };
 global.rank = "updated";
